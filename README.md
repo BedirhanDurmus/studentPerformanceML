@@ -24,7 +24,7 @@ Bu proje, öğrencilerin matematik performansını çeşitli faktörlere dayanar
 - RandomForest
 
 ## 📁 Proje Yapısı 
-studentPerformanceML/
+studentPerformanceML
 ├── artifacts/
 ├── logs/
 ├── notebook/
