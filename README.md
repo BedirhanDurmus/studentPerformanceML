@@ -24,30 +24,30 @@ Bu proje, öğrencilerin matematik performansını çeşitli faktörlere dayanar
 - RandomForest
 
 ## 📁 Proje Yapısı 
-"""
+
 studentPerformanceML
-├── artifacts/
-├── logs/
-├── notebook/
-│   └── data/
-│   └── stud.csv
-├── src/
-│   ├── components/
-│   │   ├── data_ingestion.py
-│   │   ├── data_transformation.py
-│   │   └── model_trainer.py
-│   ├── pipeline/
-│   │   ├── predict_pipeline.py
-│   │   └── train_pipeline.py
-│   ├── utils.py
-│   ├── logger.py
-│   └── exception.py
-├── templates/
-│   ├── home.html
-│   └── index.html
-├── app.py
-└── README.md
-"""
+    ├── artifacts/
+    ├── logs/
+    ├── notebook/
+    │   └── data/
+    │   └── stud.csv
+    ├── src/
+    │   ├── components/
+    │   │   ├── data_ingestion.py
+    │   │   ├── data_transformation.py
+    │   │   └── model_trainer.py
+    │   ├── pipeline/
+    │   │   ├── predict_pipeline.py
+    │   │   └── train_pipeline.py
+    │   ├── utils.py
+    │   ├── logger.py
+    │   └── exception.py
+    ├── templates/
+    │   ├── home.html
+    │   └── index.html
+    ├── app.py
+    └── README.md
+
 
 ## 🔄 Veri İşleme Pipeline'ı
 1. **Veri Alımı (Data Ingestion)**
