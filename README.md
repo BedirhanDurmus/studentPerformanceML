@@ -24,6 +24,7 @@ Bu proje, öğrencilerin matematik performansını çeşitli faktörlere dayanar
 - RandomForest
 
 ## 📁 Proje Yapısı 
+"""
 studentPerformanceML
 ├── artifacts/
 ├── logs/
@@ -46,7 +47,7 @@ studentPerformanceML
 │   └── index.html
 ├── app.py
 └── README.md
-
+"""
 
 ## 🔄 Veri İşleme Pipeline'ı
 1. **Veri Alımı (Data Ingestion)**
@@ -79,10 +80,9 @@ studentPerformanceML
 ## 💻 Kurulum
 1. Repo'yu klonlayın
 git clone https://github.com/kullaniciadi/studentPerformanceML.git
-bash
-pip install -r requirements.txt
-bash
-python app.py
+2. Gerekli paketleri yükleyin pip install -r requirements.txt
+3. Uygulamayı çalıştırın python app.py
+
 
 ## 🌐 Kullanım
 1. Web tarayıcınızda `http://localhost:5000` adresine gidin
