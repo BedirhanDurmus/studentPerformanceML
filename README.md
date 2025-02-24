@@ -23,30 +23,32 @@ Bu proje, öğrencilerin matematik performansını çeşitli faktörlere dayanar
 - CatBoost
 - RandomForest
 
-## 📁 Proje Yapısı 
+## 📂 Proje Yapısı
 
+```
 studentPerformanceML
-    ├── artifacts/
-    ├── logs/
-    ├── notebook/
-    │   └── data/
-    │   └── stud.csv
-    ├── src/
-    │   ├── components/
-    │   │   ├── data_ingestion.py
-    │   │   ├── data_transformation.py
-    │   │   └── model_trainer.py
-    │   ├── pipeline/
-    │   │   ├── predict_pipeline.py
-    │   │   └── train_pipeline.py
-    │   ├── utils.py
-    │   ├── logger.py
-    │   └── exception.py
-    ├── templates/
-    │   ├── home.html
-    │   └── index.html
-    ├── app.py
-    └── README.md
+├── artifacts/               # Model ve veri işleme çıktıları
+├── logs/                    # Log dosyaları
+├── notebook/
+│   └── data/               # Veri kümesi ve ilgili dosyalar
+│   └── stud.csv            # Öğrenci verileri içeren CSV dosyası
+├── src/
+│   ├── components/         # Makine öğrenimi bileşenleri
+│   │   ├── data_ingestion.py      # Veri alma ve ön işleme
+│   │   ├── data_transformation.py # Veri dönüşümleri
+│   │   └── model_trainer.py       # Model eğitme bileşeni
+│   ├── pipeline/           # Eğitim ve tahmin pipeline'ları
+│   │   ├── predict_pipeline.py  # Tahmin pipeline'ı
+│   │   └── train_pipeline.py    # Eğitim pipeline'ı
+│   ├── utils.py            # Yardımcı fonksiyonlar
+│   ├── logger.py           # Loglama mekanizması
+│   └── exception.py        # Hata yönetimi
+├── templates/              # Web arayüzü şablonları
+│   ├── home.html
+│   └── index.html
+├── app.py                  # Flask uygulaması
+└── README.md               # Proje dokümantasyonu
+```
 
 
 ## 🔄 Veri İşleme Pipeline'ı
@@ -77,11 +79,20 @@ studentPerformanceML
    - Eğitilmiş model ile tahmin yapar
    - Sonuçları kullanıcıya gösterir
 
-## 💻 Kurulum
-1. Repo'yu klonlayın
-git clone https://github.com/kullaniciadi/studentPerformanceML.git
-2. Gerekli paketleri yükleyin pip install -r requirements.txt
-3. Uygulamayı çalıştırın python app.py
+## 🚀 Kurulum
+
+1. Repo'yu klonlayın:
+   ```sh
+   git clone https://github.com/kullaniciadi/studentPerformanceML.git
+   ```
+2. Gerekli bağımlılıkları yükleyin:
+   ```sh
+   pip install -r requirements.txt
+   ```
+3. Flask uygulamasını çalıştırın:
+   ```sh
+   python app.py
+   ```
 
 
 ## 🌐 Kullanım
